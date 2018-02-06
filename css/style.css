@@ -1,0 +1,82 @@
+body {
+  background-image: url("../img/goldbar.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(10, 8, 42);
+  width: 400px;
+  height: 300px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-family: fantasy;
+}
+
+.label-code {
+  position: absolute;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 56px;
+}
+
+#red-box {
+  position: absolute;
+  background-color: red;
+  height: 20px;
+  width: 200px;
+  margin-left: 200px;
+  border-top-right-radius: 10px;
+}
+
+#green-box {
+  position: absolute;
+  background-color: green;
+  height: 20px;
+  width: 200px;
+  border-top-left-radius: 10px;
+}
+
+.button1 {
+  height: 50px;
+  width: 50px;
+  margin-top: 200px;
+  margin-left: 108px;
+  background-color: gold;
+  border: none;
+  font-family: fantasy;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.button1:hover {
+  color: white;
+}
+
+.button:hover {
+  color: white;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  margin-top: 200px;
+  margin-left: 15px;
+  background-color: gold;
+  border: none;
+  font-family: fantasy;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+#number-container {
+  margin-top: 90px;
+  margin-left: 138px;
+  position: absolute;
+  font-size: 80px;
+}
