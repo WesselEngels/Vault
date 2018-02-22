@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   background-color: rgb(10, 8, 42);
   width: 400px;
-  height: 300px;
+  height: 340px;
   color: white;
   border-radius: 20px;
   margin-top: 50px;
@@ -20,7 +20,7 @@ body {
   position: absolute;
   font-size: 30px;
   margin-top: 50px;
-  margin-left: 56px;
+  margin-left: 105px;
 }
 
 #red-box {
@@ -29,7 +29,7 @@ body {
   height: 20px;
   width: 200px;
   margin-left: 200px;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 15px;
 }
 
 #green-box {
@@ -37,10 +37,10 @@ body {
   background-color: green;
   height: 20px;
   width: 200px;
-  border-top-left-radius: 10px;
+  border-top-left-radius: 15px;
 }
 
-.button1 {
+#button1 {
   height: 50px;
   width: 50px;
   margin-top: 200px;
@@ -53,15 +53,15 @@ body {
   outline: none;
 }
 
-.button1:hover {
+#button1:hover {
   color: white;
 }
 
-.button:hover {
+#button:hover {
   color: white;
 }
 
-.button {
+#button {
   height: 50px;
   width: 50px;
   margin-top: 200px;
@@ -79,4 +79,11 @@ body {
   margin-left: 138px;
   position: absolute;
   font-size: 80px;
+}
+
+#good-answer, #wrong-answer {
+  position: absolute;
+  top: 269px;
+  left: 77px;
+  font-size: 28px;
 }
