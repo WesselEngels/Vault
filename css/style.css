@@ -40,7 +40,7 @@ body {
   border-top-left-radius: 15px;
 }
 
-#button1 {
+.button1 {
   height: 50px;
   width: 50px;
   margin-top: 200px;
@@ -53,15 +53,15 @@ body {
   outline: none;
 }
 
-#button1:hover {
+.button1:hover {
   color: white;
 }
 
-#button:hover {
+.button:hover {
   color: white;
 }
 
-#button {
+.button {
   height: 50px;
   width: 50px;
   margin-top: 200px;
